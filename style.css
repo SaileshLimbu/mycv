@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Oswald;
+}
+body{
+    background-image: url("bg.jpg");
+    object-fit: cover;    
+}
+#content{
+    height: 95%;
+    width: 35%;
+    margin: 1% auto;
+    box-shadow: 5px 4px 5px rgba(0,0,0,0.3);
+    background: rgba(255,255,255,0.8);
+}
+#content-header{
+    height: 80px;
+    background-color: #444446;
+    position: relative;
+}
+#content-header label{
+    width: 100%;
+    line-height: 80px;
+    position: absolute;
+    text-align: center;
+    color: rgb(231, 223, 223);
+    font-family: 'Oswald Bold';
+    font-size: 28px;
+}
+#content-left{
+    height: calc(100% - 80px);
+    width: 35%;
+    background: rgba(116, 112, 112, 0.26);
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: right;
+    float: left;
+}
+h3{
+    color: #1b1a1a;
+    font-size: 16px;
+    font-family: 'Oswald Regular';
+    margin-bottom: 5px;
+}
+ hr{
+    margin-bottom: 10px;
+}
+h4{
+    color: #181616;
+    font-size: 11px;    
+}
+#content-left ul{
+    list-style: none; 
+    float: left;   
+    margin-bottom: 10px;
+}
+#content-left ul li{
+    float: right;
+    font-size: 11px;
+    margin-bottom: 3px;
+    color: #757171;
+}
+#content-left #skills li{
+    margin-bottom: 10px;
+}
+#content-right{
+    width: 64%;
+    float: left;
+    padding: 10px;
+    box-sizing: border-box;
+}
+#content-right p{
+    font-size: 11px;
+    color: #757171;    
+    margin-bottom: 10px;
+}
+@font-face {
+font-family: "Oswald Bold";
+src: url("fonts/Oswald-Bold.ttf");
+}
+
+@font-face {
+font-family: "Oswald Regular";
+src: url("fonts/Oswald-Regular.ttf");
+}
+
+@font-face {
+font-family: "Oswald";
+src: url("fonts/Oswald-Light.ttf");
+}
